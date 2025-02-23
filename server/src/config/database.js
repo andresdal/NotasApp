@@ -4,7 +4,7 @@ import { Sequelize } from 'sequelize';
 
 //dotenv.config();
 
-const sequelize = new Sequelize("---", "root", '---', {
+const sequelize = new Sequelize("notas_app", "root", 'andydal2002', {
   host: "localhost",
   dialect: 'mysql',
   port: "3306",
